@@ -1,94 +1,111 @@
-## 🟡 Phase 1: React Basics 
-### Topics:
-- Introduction to React
-- JSX
+## 📘 React Syllabus
+
+### 🟡 1. Introduction to React & Setting Up React
+- What is React?
+- Why use React?
+- SPA (Single Page Applications)
+- Virtual DOM vs Real DOM
+##### Setting Up React  
+- Install Node.js & npm
+- Create React app:
+
+   ```
+   npx create-react-app
+   ```
+- Project structure overview
+
+### 🔵 2. JSX (JavaScript XML)
+- Syntax rules
+- Embedding JavaScript in JSX
+- Expressions vs statements
+- JSX vs HTML differences
+
+### 🟣 3. Components
 - Functional components
-- Props
-- State (useState)
-- Event handling
-- Practice:
-
-```
-    Counter app
-    Profile card
-    Dynamic UI rendering
-```
-
-##  🟠 Phase 2: Core React Concepts 
-### Topics:
-- Conditional rendering
-- Lists & keys
-- Forms (controlled components)
-- useEffect (API calls)
+- Class components (basic understanding)
 - Component structure
-- Practice:
+- Reusable components
 
-```
-    Todo app
-    API data fetch app
-```
+### 🟤 5. Props
+- Passing data to components
+- Props vs state
+- Default props
+- Props destructuring
 
+### ⚫ 6. State & useState Hook
+- What is state?
+- useState hook
+- Updating state
+- Multiple state variables
 
-## 🔵 Phase 3: Styling & UI 
-### Topics:
-- CSS in React
-- Component-based styling
-- Responsive design
-- Optional:
-```
-Tailwind CSS / Styled Components
-```
-## 🟣 Phase 4: Routing 
+### 🔴 7. Event Handling
+- onClick, onChange
+- Handling forms
+- Controlled vs uncontrolled components
 
-Use:
-- React Router
-### Topics:
-- Navigation
-- Dynamic routes
-- Nested routes
-- Practice:
-```
-Multi-page website
-```
-## 🔴 Phase 5: Intermediate Concepts (Week 6–7)
-### Topics:
-- Advanced hooks:
-- useRef, useMemo, useCallback
+### 🟢 8. Conditional Rendering
+- if/else
+- Ternary operator
+- Logical AND (&&)
+
+### 🟡 9. Lists & Keys
+- Rendering lists using map()
+- Importance of keys
+
+### 🔵 10. Forms in React
+- Controlled components
+- Form validation
+- Handling multiple inputs
+### 🟣 11. useEffect Hook
+- Side effects
+- API calls
+- Dependency array
+- Cleanup functions
+
+### 🟤 12. Styling in React
+- CSS stylesheets
+- Inline styles
+- CSS modules
+- Styled-components (optional)
+
+### ⚫ 13. React Router
+
+- Installation
+- Routing basics
+- Route, Link, NavLink
+- Dynamic routing
+
+### 🔴 14. Context API
+- Global state management
+- createContext
+- useContext
+
+### 🟢 15. Advanced Hooks
+- useRef
+- useMemo
+- useCallback
 - Custom hooks
-- Context API (global state)
-- Practice:
-```
- Reusable hooks
- Global theme or auth system
-```
-## ⚫ Phase 6: State Management (Week 8)
-
-Learn:  Redux (with Toolkit)
-### Topics:
-- Store, slices, reducers
-- Async actions (Thunk)
-
-
-## ⚪ Phase 7: API Handling & Optimization (Week 9)
-### Topics:
-- Advanced API calls
+### 🟡 16. API Integration
+- Fetch API
+- Axios
+- Async/await
 - Error handling
-- Loading states
-- Pagination / infinite scroll
-- Performance optimization
+
+### 🔵 17. Performance Optimization
+- Memoization
+- React.memo
+- Code splitting
+- Lazy loading
+
+### 🟣 18. State Management Libraries
+- Redux basics
+- Redux Toolkit
 
 
-## 🟢 Phase 8: Advanced & Production Concepts (Week 11)
-Topics:
-- Code splitting & lazy loading
-- Folder structure (scalable apps)
-- Best practices
-- Security basics
-
-
-## 🚀 Phase 9: Real-World Projects (Week 12+)
-Must-Build Projects:
-- E-commerce app (cart + API)
-- Admin dashboard
-- Blog platform (CRUD)
-- Chat UI / real-time app
+### ⚫ 19. Deployment
+- Build React app
+- Deploy on:
+```
+Netlify
+Vercel
+```

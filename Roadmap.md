@@ -26,83 +26,83 @@
 - Component structure
 - Reusable components
 
-### 🟤 5. Props
+### 🟤 4. Props
 - Passing data to components
 - Props vs state
 - Default props
 - Props destructuring
 
-### ⚫ 6. State & useState Hook
+### ⚫ 5. State & useState Hook
 - What is state?
 - useState hook
 - Updating state
 - Multiple state variables
 
-### 🔴 7. Event Handling
+### 🔴 6. Event Handling
 - onClick, onChange
 - Handling forms
 - Controlled vs uncontrolled components
 
-### 🟢 8. Conditional Rendering
+### 🟢 7. Conditional Rendering
 - if/else
 - Ternary operator
 - Logical AND (&&)
 
-### 🟡 9. Lists & Keys
+### 🟡 8. Lists & Keys
 - Rendering lists using map()
 - Importance of keys
 
-### 🔵 10. Forms in React
+### 🔵 9. Forms in React
 - Controlled components
 - Form validation
 - Handling multiple inputs
-### 🟣 11. useEffect Hook
+### 🟣 10. useEffect Hook
 - Side effects
 - API calls
 - Dependency array
 - Cleanup functions
 
-### 🟤 12. Styling in React
+### 🟤 11. Styling in React
 - CSS stylesheets
 - Inline styles
 - CSS modules
 - Styled-components (optional)
 
-### ⚫ 13. React Router
+### ⚫ 12. React Router
 
 - Installation
 - Routing basics
 - Route, Link, NavLink
 - Dynamic routing
 
-### 🔴 14. Context API
+### 🔴 13. Context API
 - Global state management
 - createContext
 - useContext
 
-### 🟢 15. Advanced Hooks
+### 🟢 14. Advanced Hooks
 - useRef
 - useMemo
 - useCallback
 - Custom hooks
-### 🟡 16. API Integration
+### 🟡 15. API Integration
 - Fetch API
 - Axios
 - Async/await
 - Error handling
 
-### 🔵 17. Performance Optimization
+### 🔵 16. Performance Optimization
 - Memoization
 - React.memo
 - Code splitting
 - Lazy loading
 
-### 🟣 18. State Management Libraries
+### 🟣 17. State Management Libraries
 - Redux basics
 - Redux Toolkit
 
 
-### ⚫ 19. Deployment
+### ⚫ 18. Deployment
 - Build React app
 - Deploy on:
 ```

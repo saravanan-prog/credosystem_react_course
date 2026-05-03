@@ -40,8 +40,8 @@
 
 ### 🔴 6. Event Handling
 - onClick, onChange
-- Handling forms
 - Controlled vs uncontrolled components
+- State component and stateless component
 
 ### 🟢 7. Conditional Rendering
 - if/else
@@ -53,9 +53,11 @@
 - Importance of keys
 
 ### 🔵 9. Forms in React
-- Controlled components
-- Form validation
+
+- Handling forms
 - Handling multiple inputs
+- Form validation 
+
 ### 🟣 10. useEffect Hook
 - Side effects
 - API calls

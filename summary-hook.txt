@@ -1,0 +1,26 @@
+useState    => holing an information
+useEffect   => React Life cycle.
+useContext  => Read gloabal states.
+useRef      => takine element reference.
+useparams   => getting RoutingParams
+useNavigate => helps to button navigations
+useLocation => read queryParams.
+useMemo     => it is a prevent to memoized value
+useCallback => it is a prevents to memoized function
+
+
+
+
+Pefromance issue 
+================
+
+1. heavy Calculation
+    
+    sum(){
+
+        for(let i=0; i<10000000; i++){}
+
+        return 25
+    }
+
+2. 

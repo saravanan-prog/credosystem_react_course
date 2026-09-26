@@ -1,6 +1,6 @@
 ### 1. if / else
 
-Used for full control flow, usually outside JSX.
+Used for `full control flow`, usually outside JSX.
 
 ###### Example:
 ```
@@ -13,12 +13,13 @@ function Status({ isLoggedIn }) {
 }
 ```
 ###### Key points:
-- Cannot be used directly inside JSX
-- Best for complex conditions or multiple returns
+- `Cannot be used` `directly` inside JSX
+- Best for `complex conditions` or multiple returns
 - Very readable
+
 ### 2. Ternary Operator (condition ? A : B)
 
-Used inside JSX for inline conditions.
+Used `inside JSX` for `inline conditions`.
 
 ###### Example:
 ```
@@ -31,13 +32,13 @@ function Status({ isLoggedIn }) {
 }
 ```
 ### Key points:
-- Short and concise
+- `Short` and `concise`
 - Must provide both true and false cases
 - Can get messy if nested
 
 ### 3. Logical AND (&&)
 
-Used when you want to render something only if condition is true.
+Used when you want to `render something` only `if condition is true`.
 
 ###### Example:
 ```

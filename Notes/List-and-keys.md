@@ -1,12 +1,12 @@
 ## React Lists
 
 
-In React, rendering lists and using keys properly is fundamental for building dynamic UIs.
+In React, `rendering lists` and `using keys` properly is fundamental for `building dynamic UIs`.
 
-### 🔹 Rendering Lists using map()
+###  Rendering Lists using map()
 
-- You use JavaScript’s map() to transform an array into JSX elements.
-- map() loops through the array and returns a `<li>` for each item.
+- You use JavaScript’s `map()` to transform an `array` into `JSX elements`.
+- `map() loops` through the array and returns a `<li>` for each item.
 
 ###### Example:
 ```
@@ -24,10 +24,10 @@ function FruitList() {
 ```
 
 
-###### ⚠️ Problem: Missing Keys
+######  Problem: Missing Keys
 
 - If you run the above code, React will warn:
-- “Each child in a list should have a unique ‘key’ prop”
+- “`Each child in a list should have a unique` `‘key’` `prop”`
 
 ###### 🔹 Importance of Keys
 
@@ -47,7 +47,7 @@ function FruitList() {
   );
 }
 ```
-### 🔑 Why Keys Matter
+###  Why Keys Matter
 
 React uses keys for its reconciliation process (diffing algorithm):
 
@@ -56,9 +56,10 @@ React uses keys for its reconciliation process (diffing algorithm):
 - Improve performance
 - Prevent UI bugs
 
-### ⚡ Real Example (Dynamic Data)
+### Real Example (Dynamic Data)
 ```
 function Users({ users }) {
+  
   return (
     <ul>
       {users.map((user) => (
@@ -70,7 +71,7 @@ function Users({ users }) {
 ```
 👉 Best practice: use a unique ID from data, not index.
 
-### ❌ Why NOT Always Use Index as Key?
+###  Why NOT Always Use Index as Key?
 
 Using index can cause bugs when:
 

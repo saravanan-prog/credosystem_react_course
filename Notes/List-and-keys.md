@@ -15,9 +15,9 @@ function FruitList() {
 
   return (
     <ul>
-      {fruits.map((fruit) => (
-        <li>{fruit}</li>
-      ))}
+      {fruits.map((fruit) => {
+        return <li>{fruit}</li>
+      })}
     </ul>
   );
 }
@@ -40,8 +40,8 @@ function FruitList() {
 
   return (
     <ul>
-      {fruits.map((fruit, index) => (
-        <li key={index}>{fruit}</li>
+      {fruits.map((fruit, key) => (
+        <li key={key}>{fruit}</li>
       ))}
     </ul>
   );

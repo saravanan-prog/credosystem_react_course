@@ -10,8 +10,11 @@ In React, `rendering lists` and `using keys` properly is fundamental for `buildi
 
 ###### Example:
 ```
+import {useState} from 'react'
+
 function FruitList() {
-  const fruits = ["Apple", "Banana", "Mango"];
+  
+  const [fruits,setFruits] = useState(["Apple", "Banana", "Mango"]);
 
   return (
     <ul>
@@ -35,14 +38,17 @@ function FruitList() {
 
 ### Correct Example:
 ```
+import {useState} from 'react'
+
 function FruitList() {
   const fruits = ["Apple", "Banana", "Mango"];
 
   return (
     <ul>
-      {fruits.map((fruit, key) => (
-        <li key={key}>{fruit}</li>
-      ))}
+      {fruits.map((fruit, key) => {
+        return <li key={key}> {fruit} </li>
+      } 
+      )}
     </ul>
   );
 }
